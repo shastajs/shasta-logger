@@ -1,19 +1,19 @@
 {
   "name": "shasta-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dead simple logger for shasta",
   "main": "dist/index.js",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contra/shasta-logger.git"
+    "url": "git+https://github.com/shastajs/shasta-logger.git"
   },
   "author": "Contra <yo@contra.io> (http://contra.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/contra/shasta-logger/issues"
+    "url": "https://github.com/shastajs/shasta-logger/issues"
   },
-  "homepage": "https://github.com/contra/shasta-logger#readme",
+  "homepage": "https://github.com/shastajs/shasta-logger#readme",
   "files": [
     "dist"
   ],

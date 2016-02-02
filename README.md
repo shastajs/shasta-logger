@@ -37,5 +37,5 @@ let store = createStore({
 [npm-url]: https://npmjs.org/package/shasta-logger
 [npm-image]: http://img.shields.io/npm/v/shasta-logger.svg
 
-[travis-url]: https://travis-ci.org/contra/shasta-logger
-[travis-image]: https://travis-ci.org/contra/shasta-logger.png?branch=master
+[travis-url]: https://travis-ci.org/shastajs/shasta-logger
+[travis-image]: https://travis-ci.org/shastajs/shasta-logger.png?branch=master
