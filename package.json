@@ -1,19 +1,19 @@
 {
-  "name": "react-npm-boilerplate",
+  "name": "shasta-logger",
   "version": "1.0.0",
   "description": "Dead simple logger for shasta",
   "main": "dist/index.js",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contra/react-npm-boilerplate.git"
+    "url": "git+https://github.com/contra/shasta-logger.git"
   },
   "author": "Contra <yo@contra.io> (http://contra.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/contra/react-npm-boilerplate/issues"
+    "url": "https://github.com/contra/shasta-logger/issues"
   },
-  "homepage": "https://github.com/contra/react-npm-boilerplate#readme",
+  "homepage": "https://github.com/contra/shasta-logger#readme",
   "files": [
     "dist"
   ],
@@ -23,7 +23,7 @@
     "build": "babel src --out-dir dist",
     "clean": "rimraf dist",
     "lint": "eslint src",
-    "changelog": "github-changes -o contra -r react-npm-boilerplate -b master -f ./CHANGELOG.md --order-semver --use-commit-body",
+    "changelog": "github-changes -o contra -r shasta-logger -b master -f ./CHANGELOG.md --order-semver --use-commit-body",
     "test": "npm run-script lint && mochify --transform babelify --recursive --reporter spec"
   },
   "devDependencies": {
