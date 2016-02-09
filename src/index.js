@@ -1,6 +1,6 @@
 import createLogger from 'redux-logger'
 
-export default createLogger({
+export const middleware = createLogger({
   level: 'debug',
   stateTransformer: (state) =>
     state.toJS ? state.toJS() : state

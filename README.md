@@ -25,8 +25,7 @@ import logger from 'shasta-logger'
 
 // you get the point
 let store = createStore({
-  reducer: reducer,
-  middleware: [
+  plugins: [
     otherStuff,
     logger
   ]

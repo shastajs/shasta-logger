@@ -2,12 +2,12 @@
 /*eslint no-console: 0*/
 
 import should from 'should'
-import logger from '../src'
+import { middleware } from '../src'
 
 describe('shasta-logger', () => {
-  it('should be a function', (done) => {
-    should.exist(logger)
-    logger.should.be.a.function
+  it('middleware should be a function', (done) => {
+    should.exist(middleware)
+    middleware.should.be.a.function
     done()
   })
 })
